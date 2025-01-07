@@ -1,4 +1,3 @@
-
 let imgBox = document.getElementById("imgBox");
 let qrImage = document.getElementById("qrImage");
 let qrText = document.getElementById("qrText");
@@ -22,10 +21,10 @@ const modeIcon = document.getElementById('mode-icon');
 // Check if dark mode is already stored in localStorage (so user preference persists)
 if (localStorage.getItem('theme') === 'dark') {
     document.body.classList.add('dark-mode');
-    modeIcon.textContent = '🌙';  // Set to moon icon for dark mode
+    modeIcon.textContent = '🌞';  // Set to sun icon for dark mode
 } else {
     document.body.classList.remove('dark-mode');
-    modeIcon.textContent = '🌞';  // Set to sun icon for light mode
+    modeIcon.textContent = '🌙';  // Set to moon icon for light mode
 }
 
 // Toggle background color and icon when clicked
@@ -34,12 +33,10 @@ modeToggle.addEventListener('click', () => {
 
     // Change icon and save preference in localStorage
     if (document.body.classList.contains('dark-mode')) {
-        modeIcon.textContent = '🌙';  // Moon icon for dark mode
+        modeIcon.textContent = '🌞';  // Sun icon for dark mode
         localStorage.setItem('theme', 'dark');
     } else {
-        modeIcon.textContent = '🌞';  // Sun icon for light mode
+        modeIcon.textContent = '🌙';  // Moon icon for light mode
         localStorage.setItem('theme', 'light');
     }
 });
-
- 
