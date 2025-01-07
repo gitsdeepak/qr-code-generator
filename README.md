@@ -47,7 +47,7 @@ We welcome contributions! Fork the repository and submit your pull requests.
 💡 Got ideas? Feel free to share them via issues.
 
 ## 📜 License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is under the MIT license. See the [LICENSE](LICENSE.md) file for more details.
 
 ## 🌟 Author
 Made by gitsdeepak :wave: [Get in touch](https://gitsdeepak.github.io/linktree)
