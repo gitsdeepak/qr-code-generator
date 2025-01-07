@@ -88,3 +88,39 @@ button:hover {
     transform: scale(1);
   }
 }
+
+
+/* Style for the mode toggle icon in top-right corner */
+.mode-toggle {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: transparent;
+  border: none;
+  font-size: 30px;
+  cursor: pointer;
+  z-index: 1000;
+  transition: transform 0.3s ease;
+}
+
+.mode-toggle:hover {
+  transform: scale(1.1);
+}
+
+/* Light Mode (default) background */
+body {
+  background-color: #f4f4f4;
+  color: #333;
+  transition: background-color 0.3s ease;
+}
+
+/* Dark Mode background */
+body.dark-mode {
+  background-color: #333;
+  color: #f4f4f4;
+}
+
+/* Icon color change when dark mode is active */
+body.dark-mode .mode-toggle #mode-icon {
+  content: "🌙";  /* Change the icon to the moon */
+}
