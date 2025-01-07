@@ -123,4 +123,4 @@ body.dark-mode {
 /* Icon color change when dark mode is active */
 body.dark-mode .mode-toggle #mode-icon {
   content: "🌙";  /* Change the icon to the moon */
-}
+} 
