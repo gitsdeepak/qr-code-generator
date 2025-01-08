@@ -108,14 +108,14 @@ button:hover {
 
 /* Light Mode (default) background */
 body {
-  background-color: #f4f4f4;
+  background-color: #f3f4f5;
   color: #333;
 }
 
 /* Dark Mode background */
 body.dark-mode {
   background-color: #333;
-  color: #f4f4f4;
+  color: #f3f4f5;
 }
 
 /* Icon color change when dark mode is active */
